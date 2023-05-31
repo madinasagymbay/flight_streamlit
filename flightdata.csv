@@ -1,0 +1,32 @@
+,currency,destination,airline,flight_num,price,dep_date,dep_time,arr_date,arr_time,airport_name,country_code,coordinates,country_name
+0,KZT,AER,A4,784,22950,2023-06-01,00:30:00,2023-06-07,21:30:00,Sochi International Airport,RU,"{'lat': 43.44884, 'lon': 39.941105}",Russian Federation
+1,KZT,AKX,КС,7778,23973,2023-08-29,03:05:00,2023-09-08,05:05:00,Aktobe Airport,KZ,"{'lat': 50.249336, 'lon': 57.211403}",Kazakhstan
+2,KZT,AKX,KC,7278,47834,2023-06-24,13:45:00,2023-06-29,05:05:00,Aktobe Airport,KZ,"{'lat': 50.249336, 'lon': 57.211403}",Kazakhstan
+3,KZT,ALA,KC,7176,33267,2023-10-11,06:45:00,2023-10-18,02:25:00,Almaty Airport,KZ,"{'lat': 43.346653, 'lon': 77.01145}",Kazakhstan
+4,KZT,ALA,KC,7576,41695,2023-09-18,13:00:00,2023-09-19,10:00:00,Almaty Airport,KZ,"{'lat': 43.346653, 'lon': 77.01145}",Kazakhstan
+5,KZT,BAK,J2,9216,49772,2023-09-26,21:55:00,2023-09-30,19:50:00,Heydar Aliyev International Airport,AZ,"{'lat': 40.462486, 'lon': 50.05039}",Azerbaijan
+6,KZT,CIT,KC,7576,28926,2023-10-09,13:00:00,2023-10-18,15:50:00,Shymkent Airport,KZ,"{'lat': 42.3, 'lon': 69.6}",Kazakhstan
+7,KZT,CIT,KC,7276,57545,2023-08-07,23:40:00,2023-08-19,06:05:00,Shymkent Airport,KZ,"{'lat': 42.3, 'lon': 69.6}",Kazakhstan
+8,KZT,EVN,KC,7639,42415,2023-09-17,07:40:00,2023-09-21,10:05:00,Zvartnots International Airport,AM,"{'lat': 40.15272, 'lon': 44.39805}",Armenia
+9,KZT,EVN,KC,7639,42415,2023-09-17,07:40:00,2023-09-21,10:05:00,Yerevan Stadium,AM,"{'lat': 40.17621, 'lon': 44.50114}",Armenia
+10,KZT,GUW,КС,7276,17912,2023-09-05,23:40:00,2023-09-06,13:55:00,Atyrau Airport,KZ,"{'lat': 47.122814, 'lon': 51.829556}",Kazakhstan
+11,KZT,HSA,DV,762,49919,2023-09-05,05:40:00,2023-09-23,14:40:00,Hazret Sultan,KZ,"{'lat': 43.31111, 'lon': 68.55028}",Kazakhstan
+12,KZT,IST,KC,7625,71677,2023-09-02,08:20:00,2023-09-09,12:45:00,Sabiha Gokcen International Airport,TR,"{'lat': 40.904675, 'lon': 29.309189}",Turkey
+13,KZT,IST,KC,7625,71677,2023-09-02,08:20:00,2023-09-09,12:45:00,,TR,"{'lat': 40.9769, 'lon': 28.82055}",Turkey
+14,KZT,KOV,DV,779,49781,2023-08-07,05:00:00,2023-08-21,14:00:00,Kokshetau Airport,KZ,"{'lat': 53.316666, 'lon': 69.4}",Kazakhstan
+15,KZT,KUT,КС,7605,53843,2023-09-25,07:30:00,2023-10-02,09:55:00,Kutaisi International Airport,GE,"{'lat': 42.25, 'lon': 42.7}",Georgia
+16,KZT,KUT,KC,7276,63398,2023-09-27,23:40:00,2023-10-06,09:55:00,Kutaisi International Airport,GE,"{'lat': 42.25, 'lon': 42.7}",Georgia
+17,KZT,KZO,КС,7176,61471,2023-09-05,14:05:00,2023-09-19,06:15:00,Kzyl-Orda Airport,KZ,"{'lat': 44.712223, 'lon': 65.59288}",Kazakhstan
+18,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Vnukovo Airport,RU,"{'lat': 55.60315, 'lon': 37.2921}",Russian Federation
+19,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Paveletskiy Railway.,RU,"{'lat': 55.755787, 'lon': 37.617634}",Russian Federation
+20,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Zhukovsky International Airport,RU,"{'lat': 55.569016, 'lon': 38.141964}",Russian Federation
+21,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Sheremetyevo International Airport,RU,"{'lat': 55.966324, 'lon': 37.416573}",Russian Federation
+22,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Savelovsky Railway Station,RU,"{'lat': 55.7943, 'lon': 37.5881}",Russian Federation
+23,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Moscow Domodedovo Airport,RU,"{'lat': 55.414566, 'lon': 37.899494}",Russian Federation
+24,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Moscow Leningradsky Railway Station,RU,"{'lat': 55.755787, 'lon': 37.617634}",Russian Federation
+25,KZT,MOW,A4,784,67640,2023-06-01,00:30:00,2023-06-07,14:40:00,Belorussky Railway Station,RU,"{'lat': 55.755787, 'lon': 37.617634}",Russian Federation
+26,KZT,MRV,A4,5010,30939,2023-05-31,05:35:00,2023-05-31,17:15:00,Mineralnye Vody Airport,RU,"{'lat': 44.218105, 'lon': 43.085815}",Russian Federation
+27,KZT,MRV,A4,784,68245,2023-06-01,00:30:00,2023-06-06,02:00:00,Mineralnye Vody Airport,RU,"{'lat': 44.218105, 'lon': 43.085815}",Russian Federation
+28,KZT,NQZ,КС,7376,28935,2023-10-07,04:10:00,2023-10-14,07:20:00,Nursultan (Astana) International Airport,KZ,"{'lat': 51.02781, 'lon': 71.4612}",Kazakhstan
+29,KZT,NQZ,KC,7778,33416,2023-10-16,03:05:00,2023-10-16,17:30:00,Nursultan (Astana) International Airport,KZ,"{'lat': 51.02781, 'lon': 71.4612}",Kazakhstan
+30,KZT,URA,KC,7298,60682,2023-07-23,23:50:00,2023-07-29,07:10:00,Uralsk Airport,KZ,"{'lat': 51.15371, 'lon': 51.538563}",Kazakhstan
