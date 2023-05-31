@@ -12,9 +12,9 @@ from helper import process_dep_data
 import os
 
 #Access tokens to the API
-api_token = os.getenv('X-Access-Token')
-api_key = os.getenv('X-RapidAPI-Key')
-api_host = os.getenv('X-RapidAPI-Host')
+api_token = os.getenv('X_Access_Token')
+api_key = os.getenv('X_RapidAPI_Key')
+api_host = os.getenv('X_RapidAPI_Host')
 
 headers = {
 	"X-Access-Token": api_token,
