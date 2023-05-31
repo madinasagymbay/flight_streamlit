@@ -1,0 +1,244 @@
+{
+    "currency": "KZT",
+    "data": {
+        "AKX": {
+            "0": {
+                "airline": "21",
+                "departure_at": "2023-06-10T18:20:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7591,
+                "price": 53904,
+                "return_at": "2023-06-24T20:00:00+05:00"
+            },
+            "1": {
+                "airline": "21",
+                "departure_at": "2023-09-25T22:45:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7226,
+                "price": 64417,
+                "return_at": "2023-09-29T18:00:00+05:00"
+            }
+        },
+        "ALA": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-08-28T13:30:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7108,
+                "price": 17140,
+                "return_at": "2023-08-31T10:55:00+06:00"
+            }
+        },
+        "ANK": {
+            "1": {
+                "airline": "\u041a\u0421",
+                "departure_at": "2023-09-12T08:10:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7308,
+                "price": 77489,
+                "return_at": "2023-09-19T17:10:00+03:00"
+            }
+        },
+        "AUH": {
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-08-04T09:10:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7106,
+                "price": 88660,
+                "return_at": "2023-08-11T13:20:00+04:00"
+            }
+        },
+        "DEL": {
+            "0": {
+                "airline": "\u041a\u0421",
+                "departure_at": "2023-10-19T08:20:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7469,
+                "price": 48210,
+                "return_at": "2023-10-23T12:00:00+05:30"
+            }
+        },
+        "FRU": {
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-07-15T22:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 970,
+                "price": 76465,
+                "return_at": "2023-08-08T19:25:00+06:00"
+            }
+        },
+        "GUW": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-07-04T13:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7228,
+                "price": 47166,
+                "return_at": "2023-08-02T14:40:00+05:00"
+            },
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-09-12T16:35:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7575,
+                "price": 39740,
+                "return_at": "2023-09-20T20:05:00+05:00"
+            }
+        },
+        "HSA": {
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-08-05T08:25:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7106,
+                "price": 64999,
+                "return_at": "2023-08-06T23:40:00+06:00"
+            }
+        },
+        "KGF": {
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-06-19T23:20:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7108,
+                "price": 74344,
+                "return_at": "2023-06-25T07:50:00+06:00"
+            }
+        },
+        "KOV": {
+            "0": {
+                "airline": "DV",
+                "departure_at": "2023-06-01T17:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 782,
+                "price": 36004,
+                "return_at": "2023-06-15T14:00:00+06:00"
+            }
+        },
+        "KSN": {
+            "1": {
+                "airline": "\u041a\u0421",
+                "departure_at": "2023-09-04T20:55:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7326,
+                "price": 42502,
+                "return_at": "2023-09-11T12:25:00+06:00"
+            }
+        },
+        "KUT": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-10-11T14:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7407,
+                "price": 65190,
+                "return_at": "2023-10-15T17:00:00+04:00"
+            },
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-09-12T16:35:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7575,
+                "price": 87565,
+                "return_at": "2023-09-17T17:00:00+04:00"
+            }
+        },
+        "NQZ": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-09-20T08:10:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7308,
+                "price": 21477,
+                "return_at": "2023-09-28T05:00:00+06:00"
+            },
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-08-11T10:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 972,
+                "price": 41087,
+                "return_at": "2023-08-20T03:15:00+06:00"
+            }
+        },
+        "PLX": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-06-09T13:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7551,
+                "price": 36945,
+                "return_at": "2023-06-19T15:15:00+06:00"
+            },
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-07-14T09:10:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7106,
+                "price": 62664,
+                "return_at": "2023-07-24T14:25:00+06:00"
+            }
+        },
+        "PWQ": {
+            "1": {
+                "airline": "\u041a\u0421",
+                "departure_at": "2023-09-02T08:25:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7106,
+                "price": 51260,
+                "return_at": "2023-09-09T08:55:00+06:00"
+            }
+        },
+        "SCO": {
+            "0": {
+                "airline": "KC",
+                "departure_at": "2023-10-12T15:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7577,
+                "price": 24771,
+                "return_at": "2023-10-19T11:10:00+05:00"
+            },
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-09-16T23:50:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7226,
+                "price": 40664,
+                "return_at": "2023-09-18T18:00:00+05:00"
+            }
+        },
+        "SVX": {
+            "0": {
+                "airline": "WZ",
+                "departure_at": "2023-06-07T01:20:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 1100,
+                "price": 96103,
+                "return_at": "2023-06-20T20:40:00+05:00"
+            }
+        },
+        "TAS": {
+            "1": {
+                "airline": "\u041a\u0421",
+                "departure_at": "2023-10-11T08:10:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7308,
+                "price": 77324,
+                "return_at": "2023-10-16T03:05:00+05:00"
+            }
+        },
+        "UKK": {
+            "1": {
+                "airline": "KC",
+                "departure_at": "2023-07-08T15:00:00+06:00",
+                "expires_at": "2023-05-31T20:34:10Z",
+                "flight_number": 7104,
+                "price": 89446,
+                "return_at": "2023-07-15T09:30:00+06:00"
+            }
+        }
+    },
+    "success": true
+}
