@@ -1,6 +1,5 @@
 # import streamlit
 # import pandas 
-from subprocess import call
 import plotly.express
 import requests
 import json
