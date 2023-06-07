@@ -15,7 +15,9 @@ def process_dep_data(data_json_str, airport_json_str, origin, range_km):
   # Parse the JSON string into a dictionary
   data_json = json.loads(data_json_str)
   airport_json = json.loads(airport_json_str)
-  #print(type(data_json))
+
+#   print(data_json_str)
+#   print("DONE")
   #print('data_json:', data_json)
   selected_city = origin
   #Create the dataframe with the columns stated below
@@ -33,6 +35,8 @@ def process_dep_data(data_json_str, airport_json_str, origin, range_km):
           }
           rows.append(row)
   df = pd.DataFrame(rows)
+#   print("df results")
+#   print(df)
 
   #Convert the columns 'departure_at' and 'return_at' to datetime format
   df['dep_at'] = pd.to_datetime(df['dep_at'], utc=True) 
@@ -58,6 +62,8 @@ def process_dep_data(data_json_str, airport_json_str, origin, range_km):
   #Add the full country name using the get_country_name function
   df['country_name'] = df['country_code'].apply(get_country_name)
   #print(df_neighbours)
+#   print(df)
+#   print('modified df results')
   return df, df_neighbours
 
 def airports(airports_json, selected_city, range_km):
@@ -81,9 +87,11 @@ def airports(airports_json, selected_city, range_km):
 
   # SQL query
   query = "WITH sel_country AS (SELECT * FROM df_airports WHERE destination = '{}') " \
-          "SELECT b.*, ABS(a.latitude - b.latitude) AS diff_lat, ABS(a.longitude - b.longitude) AS diff_lon " \
-          "FROM df_airports b JOIN sel_country a ON a.country_code = b.country_code " \
-          "WHERE diff_lat < {} AND diff_lon < {}".format(selected_city, range_km, range_km)  # Execute the query
+        "SELECT b.*,  ROUND(acos(sin(radians(a.latitude)) * sin(radians(b.latitude)) +" \
+        "cos(radians(a.latitude)) * cos(radians(b.latitude)) * " \
+        "cos(radians(b.longitude) - radians(a.longitude))) * 6371) AS distance_in_km " \
+        "FROM df_airports b JOIN sel_country a ON a.country_code = b.country_code " \
+        "WHERE distance_in_km < {}".format(selected_city, range_km)  # Execute the query
   neighb_cities = sqldf(query, locals())
 
   def get_continent_name(country_code):

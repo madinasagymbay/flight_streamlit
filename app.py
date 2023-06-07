@@ -2,8 +2,6 @@
 import streamlit as st
 # Import pandas to load the analytics data
 import pandas as pd
-# Import subprocess to run tiktok script from command line
-from subprocess import call
 # Import plotly for viz
 import plotly.express as px
 # Import data processing helper
@@ -23,8 +21,8 @@ st.sidebar.markdown("To get started <ol><li>Enter the <i><b>departure city, curr
 dep_city = st.text_input('Insert your departure city', value="")
 currency = st.selectbox('Pick the currency', ['KZT', 'USD', 'GBP'])
 st.markdown('If you would like to get even cheaper prices with the departure city close to your location, go to "Neighbouring cities analysis"')
-st.markdown('Select the range in km (default 10 km) from your location and you will get the closest neighbouring cities')
-range_km = st.number_input('Pick a number', 0, 20)
+st.markdown('Select the range in km (default 1000 km) from your location and you will get the closest neighbouring cities')
+range_km = st.number_input('Select the range in km', 0, 5000)
 
 # Function to process the selected city and update the results
 def process_selected_city(selected_city, neigh_df, currency):
@@ -43,7 +41,7 @@ def process_selected_city(selected_city, neigh_df, currency):
 def update_results(selected_city):
     #print(dep_city)
     # Call the process_data function
-    df, neigh_df = get_flights_dep(dep_city, currency, 10)
+    df, neigh_df = get_flights_dep(dep_city, currency, 1000)
 
     # Plot the bar chart
     mean_prices = df.groupby('airport_name')['price'].mean().round(2).reset_index()
@@ -61,9 +59,9 @@ def update_results(selected_city):
                       size='price')
     st.plotly_chart(fig2, use_container_width=True)
 
-    # Default range is 10 km, otherwise selected range
+    # Default range is 1000 km, otherwise selected range
     if range_km == 0:
-        df, neigh_df = get_flights_dep(dep_city, currency, 10)
+        df, neigh_df = get_flights_dep(dep_city, currency, 1000)
     else:
         df, neigh_df = get_flights_dep(dep_city, currency, range_km)
 
