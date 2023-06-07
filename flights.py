@@ -69,14 +69,14 @@ def get_flights_arr(neigh_cities, currency, selected_city):
   #Get airports data
   raw_air_data = get_airports()
   #Proces data
-  process_data_df = process_dep_data(text_2, raw_air_data, neigh_cities, 10)
-  print("process_data_df")
-  print(process_data_df)
+  process_data_df = process_dep_data(text_2, raw_air_data, neigh_cities, 1000)
+  # print("process_data_df")
+  # print(process_data_df)
   #return the query results
   return process_data_df
 
 # def get_recom(dep_city, destination, currency, selected_city):
-#   result_df, neigh_df = get_flights_dep(dep_city, currency, range_km=10)
+#   result_df, neigh_df = get_flights_dep(dep_city, currency, range_km=1000)
 #   combined_results = pd.DataFrame()
 
 #   # Iterate over each destination
@@ -90,14 +90,14 @@ def get_flights_arr(neigh_cities, currency, selected_city):
 
 
 
-# dep_city = "SCO"
+# dep_city = "CIT"
 # currency = "KZT"
-# range_km = 10
+# range_km = 1000
 # selected_city = "KUT"
 # # # Call the process_data function
 
-# result_df, neigh_df = get_flights_dep(dep_city, currency, range_km = 10)
-# print(neigh_df)
+# result_df, neigh_df = get_flights_dep(dep_city, currency, range_km = 1000)
+# # print(neigh_df)
 
 # def process_selected_city(selected_city, neigh_df, currency):
 #     # Initialize an empty DataFrame to store the results
